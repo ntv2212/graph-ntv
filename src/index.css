@@ -19,3 +19,15 @@ code {
 html {
   background-color: rgb(12, 10, 29)
 }
+
+.custom-text-button {
+  height: max-content !important;
+}
+
+.custom-text-button div {
+  padding: 0 !important;
+}
+
+.custom-text-button div span{
+  justify-content: start !important;
+}
