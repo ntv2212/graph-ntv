@@ -31,3 +31,175 @@ html {
 .custom-text-button div span{
   justify-content: start !important;
 }
+
+.marker1 {
+  animation: animation-marker1 12000ms linear infinite;
+  animation-delay: 400.ms;
+}
+
+@keyframes animation-marker1 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 36px;
+    opacity: 0;
+}
+}
+
+.marker2 {
+  animation: animation-marker2 12000ms linear infinite;
+  animation-delay: 4900.ms;
+}
+
+@keyframes animation-marker2 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 32px;
+    opacity: 0;
+}
+}
+
+.marker3 {
+  animation: animation-marker3 10000ms linear infinite;
+  animation-delay: 8000.ms;
+}
+
+@keyframes animation-marker3 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 48px;
+    opacity: 0;
+}
+}
+
+.marker4 {
+  animation: animation-marker4 6000ms linear infinite;
+  animation-delay: -18000.ms;
+}
+
+@keyframes animation-marker4 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 24px;
+    opacity: 0;
+}
+}
+
+.marker5 {
+  animation: animation-marker5 16000ms linear infinite;
+  animation-delay: -8000.ms;
+}
+
+@keyframes animation-marker5 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 36px;
+    opacity: 0;
+}
+}
+
+.marker6 {
+  animation: animation-marker6 6000ms linear infinite;
+  animation-delay: -6000.ms;
+}
+
+@keyframes animation-marker6 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 60px;
+    opacity: 0;
+}
+}
+.marker7 {
+  animation: animation-marker7 28000ms linear infinite;
+  animation-delay: 28000.ms;
+}
+
+@keyframes animation-marker7 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 28px;
+    opacity: 0;
+}
+}
+.marker8 {
+  animation: animation-marker8 3000ms linear infinite;
+  animation-delay: 3000.ms;
+}
+
+@keyframes animation-marker8 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 24px;
+    opacity: 0;
+}
+}
+.marker9 {
+  animation: animation-marker9 12000ms linear infinite;
+  animation-delay: 900.ms;
+}
+
+@keyframes animation-marker9 {
+  0% {
+    r: 0;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30%, 100% {
+    r: 12px;
+    opacity: 0;
+}
+}
+
+.transition-color {
+  transition: color 200ms ease 0ms, background-color 200ms ease 0ms, border-color 200ms ease 0ms, text-decoration-color 200ms ease 0ms, fill 200ms ease 0ms, stroke 200ms ease 0ms;
+}

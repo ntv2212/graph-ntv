@@ -6,18 +6,25 @@ import {
   CustomDivider,
   SubGraph,
   Web3,
+  HowToUse,
+  Global,
+  JoinEcosystem,
 } from "./components/Home";
 
 function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="min-h-screen overflow-hidden">
       <Header />
-      <main className="overflow-x-hidden">
+      <main className="overflow-hidden">
         <Thumbnail />
         <GeneralInfo />
         <CustomDivider />
         <SubGraph />
         <Web3 />
+        <CustomDivider />
+        <HowToUse />
+        <Global />
+        <JoinEcosystem />
       </main>
     </div>
   );
